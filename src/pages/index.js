@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import WelcomeScreen from '../components/WelcomeScreen';
-import PokemonCard from '../components/PokemonCard';
-import LikedPokemonList from '../components/LikedPokemonList';
+import WelcomeScreen from '@/Components/WelcomeScreen';
+import PokemonCard from '@/Components/PokemonCard';
+import LikedPokemonList from '@/Components/LikedPokemonList';
 import { getPokemon } from '@/Api';
 
 const Home = () => {
